@@ -2,7 +2,8 @@
     "pages": [
         "pages/Shopping/Shopping",
         "pages/main/main",
-        "pages/PreferredDaily/PreferredDaily"
+        "pages/PreferredDaily/PreferredDaily",
+        "component/i-swiper/i-swiper"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -13,7 +14,8 @@
     "tabBar": {
         "position": "bottom",
         "borderStyle": "black",
-        "list": [{
+        "list": [
+            {
                 "pagePath": "pages/Shopping/Shopping",
                 "text": "扫码购物",
                 "iconPath": "/assets/images/index02.png",
@@ -24,7 +26,8 @@
                 "text": "每日优选",
                 "iconPath": "/assets/images/cart02.png",
                 "selectedIconPath": "/assets/images/cart01.png"
-            }, {
+            },
+            {
                 "pagePath": "pages/main/main",
                 "text": "个人中心",
                 "iconPath": "/assets/images/user02.png",

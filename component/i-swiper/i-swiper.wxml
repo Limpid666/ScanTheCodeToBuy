@@ -1,0 +1,8 @@
+<!-- component/i-swiper/i-swiper.wxml -->
+<view class="swiper-wrap">
+  <swiper indicator-dots autoplay="false" interval="5000" duration="1000" circular="true" vertical="false" previous-margin="false" next-margin="0px" class="swiper">
+    <swiper-item wx:for="{{data}}" wx:key="index">
+      <image src="{{item.banner_img}}" class="image"></image>
+    </swiper-item>
+  </swiper>
+</view>

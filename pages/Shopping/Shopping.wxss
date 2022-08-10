@@ -1,1 +1,11 @@
 /* pages/Shopping/Shopping.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.main {
+  flex: 1;
+  background-color: yellow;
+}

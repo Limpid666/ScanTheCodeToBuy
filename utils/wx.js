@@ -1,4 +1,4 @@
-function wxTopPromise(method = "request", option = {}) {
+function wxToPromise(method = "request", option = {}) {
   return new Promise((resolve, reject) => {
     option.success = resolve;
     option.fail = (error) => {
@@ -8,4 +8,4 @@ function wxTopPromise(method = "request", option = {}) {
   });
 }
 
-export default wxTopPromise;
+export default wxToPromise;

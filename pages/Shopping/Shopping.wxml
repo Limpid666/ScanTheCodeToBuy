@@ -1,2 +1,8 @@
 <!-- pages/Shopping/Shopping.wxml -->
 <text>扫码购物</text>
+<view class="swiper-wrap">
+  <view>
+    <i-swiper data="{{bannerData}}"></i-swiper>
+  </view>
+  <view class="main">main</view>
+</view>
